@@ -1,34 +1,20 @@
-import Link from 'next/link'
 import React from 'react'
+import Link from 'next/link'
 
 const projects = [
   {
-    src: "/websites/datequest.webm",
-    title: "DateQuest",
-    desc: "A website to ask your crush on a date!",
-    href: "https://date-quest-qy.vercel.app/"
+    src: "/college/tucil2stima.webm",
+    title: "Bezier Curve",
+    desc: "A website to generate bezier curve points with divide and conquer or brute force algorithm",
   },
   {
-    src: "/websites/hydra.webm",
-    title: "Hydra",
-    desc: "A minimalist project management webstie (on going)",
-    href: ""
-  },
-  {
-    src: "/websites/sikasep.webm",
-    title: "SiKasep",
-    desc: "KSEP ITB's internal website",
-    href: "https://sikasep.com/"
-  },
-  {
-    src: "/websites/sre.webm",
-    title: "SRE ITB",
-    desc: "SRE ITB's webstie",
-    href: "https://sreitb.com/"
-  },
+    src: "/college/tubes2oop.webm",
+    title: "Harvest Moon",
+    desc: "Create simple harvest moon game with Java using JavaFX",
+  }
 ]
 
-const WebsiteProjects = () => {
+const DesignProjects = () => {
   return (
     <div className='space-y-8'>
       <h3 className='text-2xl font-black' data-aos="fade-up">Website Projects</h3>
@@ -36,7 +22,7 @@ const WebsiteProjects = () => {
           {projects.map((item, index) => {
             return (
               <li key={index} data-aos="zoom-in">
-                <Link href={item.href} className='space-y-2 w-full flex flex-col items-center justify-center '>
+                <div className='space-y-2 w-full flex flex-col items-center justify-center '>
                   <video
                     autoPlay
                     muted
@@ -49,7 +35,7 @@ const WebsiteProjects = () => {
                     <p className='font-semibold text-center max-w-[300px]'>{item.title}</p>
                     <p className='font-regular text-gray-700 text-center max-w-[300px]'>{item.desc}</p>
                   </div>
-                </Link>
+                </div>
               </li>
             )
           })}
@@ -58,4 +44,4 @@ const WebsiteProjects = () => {
   )
 }
 
-export default WebsiteProjects
+export default DesignProjects

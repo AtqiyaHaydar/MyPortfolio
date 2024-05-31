@@ -13,6 +13,7 @@ import {
   TabsTrigger,
 } from "@/components/ui/tabs"
 import WebsiteProjects from "@/components/WebsiteProjects";
+import DesignProjects from "@/components/DesignProjects";
 
 export default function Home() {
   useAos();
@@ -36,8 +37,8 @@ export default function Home() {
         <TabsContent value="Website Projects" className="py-12 flex flex-col gap-y-16 my-[-95px]">
           <WebsiteProjects />
         </TabsContent>
-        <TabsContent value="Design Projects" className="py-12 flex flex-col gap-y-16">
-
+        <TabsContent value="Design Projects" className="py-12 flex flex-col gap-y-16 my-[-95px]">
+          <DesignProjects />
         </TabsContent>
         <TabsContent value="College Assigments" className="py-12 flex flex-col gap-y-16">
 
