@@ -16,6 +16,7 @@ import WebsiteProjects from "@/components/WebsiteProjects";
 import CollegeProjects from "@/components/CollegeProjects";
 import Education from "@/components/Education";
 import OrganizationalExperience from "@/components/OrganizationalExperience";
+import DesignProjects from "@/components/DesignProjects";
 
 export default function Home() {
   useAos();
@@ -42,7 +43,7 @@ export default function Home() {
           <WebsiteProjects />
         </TabsContent>
         <TabsContent value="Design Projects" className="py-12 flex flex-col gap-y-16 my-[-95px]">
-          
+          <DesignProjects />
         </TabsContent>
         <TabsContent value="College Assigments" className="py-12 flex flex-col gap-y-16">
           <CollegeProjects />

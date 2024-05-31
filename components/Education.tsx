@@ -12,14 +12,6 @@ const Education = () => {
           <p className='text-[14px] text-gray-500'>Class of 2022</p>
         </div>
       </div>
-      <div className='flex flex-row items-center gap-x-12'>
-        <div className='h-[15px] w-[15px] rounded-[50px] bg-black' />
-        <div>
-          <p className='font-semibold text-[18px]'>SMAN 2 Bandung</p>
-          <p className='text-[16px] '>Mathematics and Science</p>
-          <p className='text-[14px] text-gray-500'>2019 - 2022</p>
-        </div>
-      </div>
     </div>
   )
 }
