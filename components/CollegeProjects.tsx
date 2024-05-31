@@ -17,7 +17,7 @@ const projects = [
 const CollegeProjects = () => {
   return (
     <div className='space-y-8'>
-      <h3 className='text-2xl font-black' data-aos="fade-up">Website Projects</h3>
+      <h3 className='text-2xl font-black' data-aos="fade-up">College Assigments</h3>
       <ul className='flex flex-wrap justify-between gap-y-6'>
           {projects.map((item, index) => {
             return (
