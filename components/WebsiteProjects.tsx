@@ -1,0 +1,54 @@
+import Link from 'next/link'
+import React from 'react'
+
+const projects = [
+  {
+    src: "/websites/datequest.webm",
+    title: "A website to ask your crush on a date! ",
+    href: "https://date-quest-qy.vercel.app/"
+  },
+  {
+    src: "/websites/hydra.webm",
+    title: "A minimalist project management webstie (on going)",
+    href: ""
+  },
+  {
+    src: "/websites/sikasep.webm",
+    title: "KSEP ITB's internal website",
+    href: "https://sikasep.com/"
+  },
+  {
+    src: "/websites/sre.webm",
+    title: "SRE ITB's webstie",
+    href: "https://sreitb.com/"
+  },
+]
+
+const WebsiteProjects = () => {
+  return (
+    <div className='space-y-8'>
+      <h3 className='text-2xl font-black' data-aos="fade-up">Website Projects</h3>
+      <ul className='flex flex-wrap justify-between gap-y-6'>
+          {projects.map((item, index) => {
+            return (
+              <li key={index} data-aos="zoom-in">
+                <Link href={item.href} className='space-y-2 w-full flex flex-col items-center justify-center '>
+                  <video
+                    autoPlay
+                    muted
+                    loop
+                    className="rounded-lg w-[365px]"
+                  >
+                    <source src={item.src} type="video/webm" />
+                  </video>
+                  <p className='font-medium text-center max-w-[300px]'>{item.title}</p>
+                </Link>
+              </li>
+            )
+          })}
+      </ul>
+    </div>
+  )
+}
+
+export default WebsiteProjects
