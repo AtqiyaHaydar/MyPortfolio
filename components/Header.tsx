@@ -8,7 +8,7 @@ import Link from 'next/link'
 
 const Header = () => {
   return (
-    <div className='w-full px-4 md:px-0 md:w-[750px] bg-white flex justify-between py-8' data-aos="fade-down">
+    <div className='w-full px-8 md:px-0 md:w-[750px] bg-white flex justify-between py-8' data-aos="fade-down">
       <h1 className='font-black text-3xl'>
         Atqiya.
       </h1>
