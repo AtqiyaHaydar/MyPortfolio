@@ -14,7 +14,7 @@ const projects = [
   }
 ]
 
-const DesignProjects = () => {
+const CollegeProjects = () => {
   return (
     <div className='space-y-8'>
       <h3 className='text-2xl font-black' data-aos="fade-up">Website Projects</h3>
@@ -44,4 +44,4 @@ const DesignProjects = () => {
   )
 }
 
-export default DesignProjects
+export default CollegeProjects
