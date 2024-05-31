@@ -4,12 +4,12 @@ import Link from 'next/link'
 const projects = [
   {
     src: "/college/tucil2stima.webm",
-    title: "Bezier Curve",
+    title: "Bezier Curve (Group Project)",
     desc: "A website to generate bezier curve points with divide and conquer or brute force algorithm",
   },
   {
     src: "/college/tubes2oop.webm",
-    title: "Harvest Moon",
+    title: "Harvest Moon (Group Project)",
     desc: "Create simple harvest moon game with Java using JavaFX",
   }
 ]

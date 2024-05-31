@@ -16,13 +16,13 @@ const projects = [
   },
   {
     src: "/websites/sikasep.webm",
-    title: "SiKasep",
+    title: "SiKasep (Organization)",
     desc: "KSEP ITB's internal website",
     href: "https://sikasep.com/"
   },
   {
     src: "/websites/sre.webm",
-    title: "SRE ITB",
+    title: "SRE ITB (Organization)",
     desc: "SRE ITB's webstie",
     href: "https://sreitb.com/"
   },
