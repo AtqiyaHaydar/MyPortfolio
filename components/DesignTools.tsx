@@ -14,7 +14,7 @@ const DesignTools = () => {
   return (
     <div className='w-full space-y-8' data-aos="fade-up">
       <h3 className='text-2xl font-black'>
-        Design Tools
+        My Design Tools
       </h3>
       <ul className='max-w-[750px] flex flex-row flex-wrap gap-4'>
         {logos.map((item, index) => {

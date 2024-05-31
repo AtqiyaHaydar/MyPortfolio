@@ -59,7 +59,7 @@ const TechStacks = () => {
   return (
     <div className='w-full space-y-8' data-aos="fade-up">
       <h3 className='text-2xl font-black'>
-        Technology Stacks
+        My Technology Stacks
       </h3>
       <ul className='max-w-[750px] flex flex-row flex-wrap gap-4'>
         {logos.map((item, index) => {

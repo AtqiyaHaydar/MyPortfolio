@@ -7,11 +7,6 @@ const experiences = [
     time: "March 2024 - Present"
   },
   {
-    name: "Director of Operations",
-    company: "Kelompok Studi Ekonomi dan Pasar Modal ITB",
-    time: "March 2024 - Present",
-  },
-  {
     name: "UI/UX Designer Intern",
     company: "Datare",
     time: "November 2024 - January 2024"
@@ -22,7 +17,7 @@ const Experiences = () => {
   return (
     <div className='w-full space-y-8' data-aos="fade-up">
       <h3 className='text-2xl font-black'> 
-        Experiences
+        Work Experiences
       </h3>
       <ul className='flex flex-col gap-y-6'>
         {experiences.map((item, index) => {

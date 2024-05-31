@@ -14,6 +14,8 @@ import {
 } from "@/components/ui/tabs"
 import WebsiteProjects from "@/components/WebsiteProjects";
 import CollegeProjects from "@/components/CollegeProjects";
+import Education from "@/components/Education";
+import OrganizationalExperience from "@/components/OrganizationalExperience";
 
 export default function Home() {
   useAos();
@@ -30,7 +32,9 @@ export default function Home() {
           <TabsTrigger className="text-[10px] md:text-[14px]" value="College Assigments">College Assigments</TabsTrigger>
         </TabsList>
         <TabsContent value="About Me" className="py-12 flex flex-col gap-y-16">
+          <Education />
           <Experiences />
+          <OrganizationalExperience />
           <TechStacks />
           <DesignTools />
         </TabsContent>
