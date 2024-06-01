@@ -17,7 +17,7 @@ const experiences = [
     time: "March 2024 - May 2024"
   },
   {
-    name: "IT Associate (Best Assocaite of IT Division)",
+    name: "IT Associate (Best Associate of IT Division)",
     company: "SRE ITB",
     time: "January 2023 - March 2024"
   },

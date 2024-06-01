@@ -29,7 +29,7 @@ const DesignProjects = () => {
       <ul className='flex flex-wrap justify-around gap-y-12'>
           {projects.map((item, index) => {
             return (
-              <li key={index} data-aos="fade-up">
+              <li key={index} data-aos="zoom-in">
                 <Link href={item.href} className='space-y-2 w-full flex flex-col items-center justify-center '>
                   <video
                     autoPlay
