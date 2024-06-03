@@ -17,6 +17,7 @@ import CollegeProjects from "@/components/CollegeProjects";
 import Education from "@/components/Education";
 import OrganizationalExperience from "@/components/OrganizationalExperience";
 import DesignProjects from "@/components/DesignProjects";
+import Achievements from "@/components/Achievements";
 
 export default function Home() {
   useAos();
@@ -36,6 +37,7 @@ export default function Home() {
           <Education />
           <Experiences />
           <OrganizationalExperience />
+          <Achievements />
           <TechStacks />
           <DesignTools />
         </TabsContent>
