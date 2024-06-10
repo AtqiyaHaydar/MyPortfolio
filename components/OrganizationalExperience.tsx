@@ -17,17 +17,17 @@ const experiences = [
     time: "March 2024 - May 2024"
   },
   {
-    name: "IT Associate (Best Associate of IT Division)",
+    name: "FrontEnd Developer & UI/UX Designer (Best Associate of IT Division)",
     company: "SRE ITB",
     time: "January 2023 - March 2024"
   },
   {
-    name: "Operations Staff (Man of The Moment of Operations Division)",
+    name: "FrontEnd Developer (Man of The Moment of Operations Division)",
     company: "KSEP ITB",
     time: "March 2023 - January 2024"
   },
   {
-    name: "IT Staff (Best Staff of IT Division)",
+    name: "FrontEnd Developer & UI/UX Designer (Best Staff of IT Division)",
     company: "Parade Wisuda ITB",
     time: "September 2023 - October 2024"
   },
