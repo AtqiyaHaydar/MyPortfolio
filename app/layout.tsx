@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import useAos from "@/components/useAos";
+import AnimeGirl from "@/components/AnimeGirl";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className={`${inter.className} flex flex-col items-center w-full`}>
         <Header />
         {children}
+        <AnimeGirl />
       </body>
     </html>
   );
