@@ -17,7 +17,7 @@ const experiences = [
     time: "March 2024 - May 2024"
   },
   {
-    name: "FrontEnd Developer & UI/UX Designer (Best Associate of IT Division)",
+    name: "FrontEnd Developer & UI/UX Designer (2 Period Best Associate of IT Division)",
     company: "SRE ITB",
     time: "January 2023 - March 2024"
   },

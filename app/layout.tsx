@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={`${inter.className} flex flex-col items-center w-full`}>
         <Header />
         {children}
-        <AnimeGirl />
+        {/* <AnimeGirl /> */}
       </body>
     </html>
   );
