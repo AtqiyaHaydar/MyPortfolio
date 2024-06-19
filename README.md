@@ -1,1 +1,3 @@
-## Portfolio Website
+## Portfolio 
+
+![Thumbnail](./public/PortoThumbnail.png)
