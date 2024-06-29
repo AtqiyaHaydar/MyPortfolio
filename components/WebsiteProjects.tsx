@@ -23,9 +23,15 @@ const projects = [
   {
     src: "/websites/sre.webm",
     title: "SRE ITB (Organization)",
-    desc: "SRE ITB's webstie",
+    desc: "SRE ITB's website",
     href: "https://sreitb.com/"
   },
+  {
+    src: "/websites/seasalon.webm",
+    title: "SEASalon",
+    desc: "Salon management website",
+    href: "https://sea-salon-five.vercel.app/"
+  }
 ]
 
 const WebsiteProjects = () => {
