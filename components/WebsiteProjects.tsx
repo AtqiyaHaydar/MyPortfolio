@@ -9,12 +9,6 @@ const projects = [
     href: "https://date-quest-qy.vercel.app/"
   },
   {
-    src: "/websites/hydra.webm",
-    title: "Hydra",
-    desc: "A minimalist project management webstie (on going)",
-    href: ""
-  },
-  {
     src: "/websites/sikasep.webm",
     title: "SiKasep (Organization)",
     desc: "KSEP ITB's internal website",
@@ -31,6 +25,18 @@ const projects = [
     title: "SEASalon",
     desc: "Salon management website",
     href: "https://sea-salon-five.vercel.app/"
+  },
+  {
+    src: "/websites/infestitb2024.webm",
+    title: "INFEST ITB 2024 (Organization)",
+    desc: "Annual Event by KSEP ITB Website",
+    href: "https://infestitb2024.com//"
+  },
+  {
+    src: "/websites/cardfusion.webm",
+    title: "CardFusion",
+    desc: "A customer management relationship website",
+    href: "https://card-fusion-crm.vercel.app"
   }
 ]
 

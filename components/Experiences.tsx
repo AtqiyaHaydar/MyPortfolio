@@ -28,7 +28,7 @@ const Experiences = () => {
         {experiences.map((item, index) => {
           return (
             <li key={index} className='flex flex-row items-center gap-x-12' data-aos="fade-up">
-              <div className='h-[15px] w-[15px] rounded-[50px] bg-black' />
+              <div className='min-h-[15px] min-w-[15px] rounded-[50px] bg-black' />
               <div className=''>
                 <p className='font-semibold text-[18px]'>{item.name}</p>
                 <p className='text-[16px] '>{item.company}</p>
