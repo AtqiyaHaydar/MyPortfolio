@@ -12,7 +12,7 @@ const About = () => {
         autoPlay
         muted
         loop
-        className="h-[300px] w-[300px]"
+        className="h-[300px] w-[300px] hidden md:block"
         data-aos="fade-left"
       >
         <source src="/yuta.webm" type="video/webm" />
