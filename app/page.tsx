@@ -29,17 +29,14 @@ export default function Home() {
       <Tabs className="md:mt-12 mt-[125px]" defaultValue="About Me">
         <TabsList className="grid w-full grid-cols-4 bg-black text-white" data-aos="fade-up">
           <TabsTrigger className="text-[10px] md:text-[14px]" value="About Me">About Me</TabsTrigger>
-          <TabsTrigger className="text-[10px] md:text-[14px]" value="Website Projects">Website Projects</TabsTrigger>
-          <TabsTrigger className="text-[10px] md:text-[14px]" value="Design Projects">Design Projects</TabsTrigger>
-          <TabsTrigger className="text-[10px] md:text-[14px]" value="College Assigments">College Assigments</TabsTrigger>
+          <TabsTrigger className="text-[10px] md:text-[14px]" value="Website Projects">Website<span className="hidden md:block"> Projects</span></TabsTrigger>
+          <TabsTrigger className="text-[10px] md:text-[14px]" value="Design Projects">Design<span className="hidden md:block"> Projects</span></TabsTrigger>
+          <TabsTrigger className="text-[10px] md:text-[14px]" value="College Assigments">College<span className="hidden md:block"> Assigments</span></TabsTrigger>
         </TabsList>
         <TabsContent value="About Me" className="py-12 flex flex-col gap-y-16">
           <Education />
           <Experiences />
           <OrganizationalExperience />
-          <Achievements />
-          <TechStacks />
-          <DesignTools />
         </TabsContent>
         <TabsContent value="Website Projects" className="py-12 flex flex-col gap-y-16 my-[-95px]">
           <WebsiteProjects />

@@ -2,14 +2,19 @@ import React from 'react'
 
 const experiences = [
   {
-    name: "Director Of Operations",
+    name: "Chief Technology Officer",
+    company: "Anmategra KM ITB",
+    time: "June 2024 - Present"
+  },
+  {
+    name: "Chief Operating Officer",
     company: "KSEP ITB",
     time: "March 2024 - Present"
   },
   {
     name: "UI/UX Designer",
     company: "SkillUp",
-    time: "March 2024 - Present"
+    time: "March 2024 - June 2024"
   },
   {
     name: "UI/UX Designer (Best Staff of UI/UX Division)",
@@ -17,17 +22,17 @@ const experiences = [
     time: "March 2024 - May 2024"
   },
   {
-    name: "FrontEnd Developer & UI/UX Designer (2 Period Best Associate of IT Division)",
+    name: "Frontend Developer & UI/UX Designer (2 Period Best Associate of IT Division)",
     company: "SRE ITB",
     time: "January 2023 - March 2024"
   },
   {
-    name: "FrontEnd Developer (Man of The Moment of Operations Division)",
+    name: "Frontend Developer (Man of The Moment of Operations Division)",
     company: "KSEP ITB",
     time: "March 2023 - January 2024"
   },
   {
-    name: "FrontEnd Developer & UI/UX Designer (Best Staff of IT Division)",
+    name: "Frontend Developer & UI/UX Designer (Best Staff of IT Division)",
     company: "Parade Wisuda ITB",
     time: "September 2023 - October 2024"
   },
