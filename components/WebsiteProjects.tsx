@@ -35,7 +35,7 @@ const projects = [
   {
     src: "/websites/cardfusion.webm",
     title: "CardFusion",
-    desc: "A customer management relationship website",
+    desc: "A customer relationship management website",
     href: "https://card-fusion-crm.vercel.app"
   }
 ]
