@@ -4,7 +4,7 @@ import Link from 'next/link'
 const projects = [
   {
     src: "/designs/blissify.webm",
-    title: "Blissify",
+    title: "Blissify (Collab with Enji & Will)",
     desc: "A mental health mobile application",
     href: "https://www.figma.com/proto/CF7W83yUCMr2PSmt75o1UK/Blissify?page-id=0%3A1&node-id=188-8344&starting-point-node-id=188%3A8344&t=y8slQPllESOy4mmQ-1"
   },
@@ -25,7 +25,10 @@ const projects = [
 const DesignProjects = () => {
   return (
     <div className='space-y-8'>
-      <h3 className='text-2xl font-black' data-aos="fade-up">Design Projects</h3>
+      <div className='w-full flex items-center justify-between'>
+        <h3 className='text-2xl font-black' data-aos="fade-up">Design Projects</h3>
+        <Link className='underline' href="https://docs.google.com/document/d/1s6nEg-3oRnHXTSLQq9RHvUiUOkBtiDKR8rxlCHIk7Pk/edit" target='_blank'>More Designs Portfolio</Link>
+      </div>
       <ul className='flex flex-wrap justify-around gap-y-12'>
           {projects.map((item, index) => {
             return (
