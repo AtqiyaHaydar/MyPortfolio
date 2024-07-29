@@ -9,7 +9,7 @@ const Education = () => {
         <div>
           <p className='font-semibold text-[18px]'>Institut Teknologi Bandung</p>
           <p className='text-[16px] '>Undergraduate Informatics Engineering Student</p>
-          <p className='text-[14px] text-gray-500'>Class of 2022</p>
+          <p className='text-[14px] text-gray-500'>2022 - 2026</p>
         </div>
       </div>
     </div>

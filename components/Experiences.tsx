@@ -3,7 +3,7 @@ import React from 'react'
 const experiences = [
   {
     name: "Developer Intern",
-    company: "Purple Foxes (Remote from Italy)",
+    company: "Purple Foxes Italy",
     time: "July 2024 - Present"
   },
   {
